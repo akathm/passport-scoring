@@ -6,7 +6,8 @@ from sklearn.linear_model import LogisticRegression
   # the import table should be structured:
   # col1 = the Passport blockchain address (or passport_id),
   # col2 = the label of sybil, non-sybil, airdrop etc to be translated to boolean,
-  # col3...col21 = the boolean returns of each stamp; default 0 false
+  # col3 = has_dup_attempt - any stamp hash for this passport appears for 2+ unique passport addresses,
+  # col4...col64 = the boolean returns of each stamp; default 0 false
   # an example can be found here https://docs.google.com/spreadsheets/d/1v_ux5InolURG2j2oET8e3WQWaeR_okh8WOPQh_EeRB4/edit#gid=0
 
 train_data = pd.read_csv('sample1.csv')
