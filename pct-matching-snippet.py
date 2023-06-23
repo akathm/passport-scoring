@@ -1,7 +1,8 @@
 ### **This script is not ready for use**
 ### This file is intended to take inputs from a string array of all stamps achieved by a given Passport
 ### and return the % match which that stamp array has compared with all other stamp arrays 
-### (i.e. a higher match, means a less unique stamp array). 
+### (i.e. a higher match, means a less unique stamp array).
+### an example csv for input.csv can be found here: https://redash.grantsdata.xyz/queries/73/source
 ### This is an experimental feature for Passport scoring.
 
 import csv
